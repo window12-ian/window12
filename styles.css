@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    color: white;
+}
+
+.player {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.controls, .extra-controls {
+    margin-top: 10px;
+}
+
+button {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="range"] {
+    width: 80%;
+}
+
+#timeDisplay {
+    margin-top: 10px;
+}
