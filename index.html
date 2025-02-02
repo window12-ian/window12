@@ -8,11 +8,7 @@
     body {
       font-family: 'Poppins', sans-serif;
       margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      padding: 20px;
       background: linear-gradient(135deg, #ff758c, #ff7eb3);
       color: white;
       text-align: center;
@@ -20,11 +16,13 @@
     }
     .container {
       background: rgba(255, 255, 255, 0.25);
-      padding: 50px;
+      padding: 40px;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
       backdrop-filter: blur(12px);
       transition: transform 0.3s ease-in-out;
+      max-width: 600px;
+      margin: 50px auto;
     }
     .container:hover {
       transform: scale(1.05);
@@ -51,6 +49,7 @@
       }
       .container {
         padding: 30px;
+        margin: 30px auto;
       }
     }
   </style>
