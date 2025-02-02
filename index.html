@@ -1,37 +1,12 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>미디어 플레이어</title>
-    <link rel="stylesheet" href="Ian.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ian호스팅</title>
 </head>
 <body>
-    <div class="player">
-        <input type="file" id="fileInput" accept="video/*,audio/*">
-        <video id="videoPlayer" width="640" controls>
-            브라우저가 비디오 태그를 지원하지 않습니다.
-        </video>
-        <div class="controls">
-            <button onclick="playPause()">▶/⏸</button>
-            <button onclick="stopVideo()">⏹</button>
-            <button onclick="muteUnmute()">🔊/🔇</button>
-            <input type="range" id="seekBar" value="0" step="0.1">
-        </div>
-        <div class="extra-controls">
-            <label>속도: </label>
-            <select id="speedControl">
-                <option value="0.5">0.5x</option>
-                <option value="1" selected>1x</option>
-                <option value="1.5">1.5x</option>
-                <option value="2">2x</option>
-            </select>
-            <label>볼륨: </label>
-            <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="1">
-            <button onclick="toggleFullscreen()">⛶ 전체 화면</button>
-        </div>
-        <div id="timeDisplay">남은 시간: 00:00</div>
-    </div>
-    <script src="script.js"></script>
+    <h1>ian호스팅</h1>
+    <p>ian호스팅 기본 페이지</p>
 </body>
 </html>
